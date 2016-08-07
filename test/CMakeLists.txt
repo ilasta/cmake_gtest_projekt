@@ -33,8 +33,8 @@ if (CMAKE_VERSION VERSION_LESS 2.8.11)
             "${gmock_SOURCE_DIR}/include")
 endif()
 
-include_directories("${gtest_SOURCE_DIR}/include"
-        "${gmock_SOURCE_DIR}/include")
+#include_directories("${gtest_SOURCE_DIR}/include"
+#        "${gmock_SOURCE_DIR}/include")
 
 set(SOURCE_FILES main_test.cpp)
 add_executable(v_box_button_test ${SOURCE_FILES})
